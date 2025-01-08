@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note - me</title>
+    <!-- external css linked -->
+    <link rel="stylesheet" href="note-me.css">
+</head>
+<body>
+
+<div class="todo">
+<!-- the header and note me title -->
+<svg>
+    <rect x="0" y="0" width="100%" height="60" ry="0" fill="purple" stroke-width="1" />
+    <text id="header" x="50" y="35" fill="white">Note - me</text>
+</svg>
+<!-- for add -->
+<div class="top">
+    <p><input type="text" placeholder="title" id="title"></p>
+    <p><textarea id="txmsg" placeholder="Note here!"></textarea></p>
+    <p><input type="date" id="getdate"></p>
+    <p><button onclick="addnew()">Add New</button></p>
+    <p>&copy; 2024 || Abdinasiraa10</p>
+</div>
+<!-- here display all of the notes -->
+<div class="displays">
+<div id="notes">
+<!-- it all dispays here loc and dynam -->
+<div class="disp">
+    <h2>A Journey to Remember !</h2>
+    <p>Every journey begins with a single step. 
+        Let's embrace this one with courage and curiosity.</p>
+    <span>2024 - 12 - 31</span>
+</div>
+<div class="disp">
+    <h2>Exploring New Horizons !</h2>
+    <p>Today is a new opportunity 
+        to explore and discover. Make the most of every moment.</p>
+    <span>2025 - 01 - 01</span>
+</div>
+<div class="disp">
+    <h2>Embracing the Unexpected !</h2>
+    <p>Remember, the greatest growth comes from the 
+        challenges we face. Stay strong and keep pushing forward.</p>
+    <span>2025 - 02 - 01</span>
+</div>
+<!-- endg of disp -->
+</div>
+</div>
+</div>
+
+<!-- scrpt -->
+<script src="note-me.js"></script>
+</body>
+</html>
